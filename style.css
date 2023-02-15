@@ -1,0 +1,97 @@
+* {
+    transition: all .2s;
+}
+html {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.clear{
+    clear:both;
+}
+.wrapper {
+    width: 940px;
+    margin: 50px auto;
+    background:#0e3947
+}
+body {
+    background-color:#000;
+    background:url(http://dws.mcdir.ru/images/stol1.jpg) no-repeat;
+}
+.header {
+    position:relative; 
+    height: 90px; 
+    background: #0e3947;
+    margin-bottom: 5px; 
+    border-radius: 5px; 
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+h1{ 
+    margin:0 0 10px 40px; 
+    color:#c53100; 
+  }
+.txt{ 
+    position:absolute; 
+    top:5px;  
+    left:200px; 
+    font-size: 25px; 
+    font-style:italic; 
+    font-weight:bold; 
+    color:#c53100; 
+  }
+.sideLeft {
+    background: #81ffb6;
+    width: 30%;
+    margin-top: 5px;
+    padding: 1px 0;
+    float: left;
+}
+.bar {
+    background: #a5fdcf;
+    border-radius: 5px;
+    border: 1px solid #129d52;
+    margin: 3px auto;
+    width: 95%;
+    height: 85px;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+.content {
+    background: #fefffd;
+    width: 69%;
+    margin-top: 5px;
+    height: 365px;
+    float: right;
+}
+.left{ /* Картинка в тексте слева */
+    float: left;
+    margin: 7px 7px 7px 7px;
+  }
+.footer {
+    background: #91a43c;
+    width: 100%;
+    margin-top: 5px;
+    height: 80px;
+    text-align: center;
+}
+a.button {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+  } 
+a.button:hover { background: rgb(53, 167, 110); }
+a.button:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+  }

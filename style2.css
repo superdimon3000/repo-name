@@ -1,0 +1,40 @@
+html {
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+a.button {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+  } 
+  a.button:hover { background: rgb(53, 167, 110); }
+  a.button:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+  }
+  .txt{  
+    text-align: center;
+    color: wheat;
+  }
+  
+  .img{ 
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+  }
+  .clear{
+    clear:both;
+}
